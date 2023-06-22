@@ -18,7 +18,7 @@ darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
-github_username:  sudoitir
+github_username: sudoitir
 stackoverflow_username: "17410589"
 linkedin_username: mahdiamirabdolahi
 
@@ -41,55 +41,78 @@ linkedin_username: mahdiamirabdolahi
 # about_title: About Me (Use this to override about section title)
 #about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  As a driven and dedicated Java developer with over a year of experience in the industry, I am committed to creating \
+  innovative and high-performing software solutions. My expertise lies in developing and maintaining Java-based web \
+  applications, as well as working with various frameworks such as Spring and Hibernate.
+  I am passionate about software development, and I believe that my technical skills and problem-solving abilities \
+  will enable me to contribute to the success of any project. I am always open to new challenges and am always looking \
+  to improve my skills and knowledge.
+  
+  If you are looking for a motivated and results-driven Java developer, I would love to connect with you on LinkedIn, \
+  and explore any potential opportunities or projects that you may have.
 
 content:
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Rayan Bourse
+        sub_title: Java Developer
+        caption: Jan 2023 - present
+        link: https://www.linkedin.com/company/rayan-bourse
         quote: >
-          Short description of the company (optional)
+          A software developer and service provider company in Iran's capital market.
         description: | # this will include new lines to allow paragraphs
           Description of role
+      - layout: left
+        title: Negah Bank
+        sub_title: Java Developer
+        caption: Sep 2022 - Jan 2023
+        link: https://www.linkedin.com/company/negah-bank/
+        quote: >
+          Banking technologies products and services.
+        description: | # this will include new lines to allow paragraphs
+          In my time at Negah Bank, I was responsible for developing, and maintaining web-based applications using Java \
+          technologies. I worked closely with a team of developers and stakeholders to deliver high-quality software \
+          solutions that met the needs of the business. My skills in web development technologies and frameworks \
+          such as Spring and Hibernate, as well as my experience with Agile development methodologies, enabled me to \
+          make meaningful contributions to the team.
+      - layout: left
+        title: HAYTech
+        sub_title: Junior Java Developer
+        caption: Jan 2022 - Sep 2023
+        link: https://www.haytech.ir/en/
+        quote: >
+          Startup company.
+        description: | # this will include new lines to allow paragraphs
+          At the start of my career, I gained valuable experience in both development and deployment while working for \
+          a startup. Specifically, I played an instrumental role in the development and deployment of a project aimed \
+          at automating social media responses. This experience allowed me to hone my skills as a backend developer and\
+          taught me valuable lessons about project management and teamwork.
+          I worked on:Spring Boot project based on clean architecture, I used these technologies: Spring AOP,\
+          Spring Data JPA, Spring Security, Map Struct, Lombok , JUnit 5, Mockito  Dockerize the project \
+          Gitlab Ci (Running unit tests, checking security and code quality)
+
+
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # other value (or no value) means no border will be displayed
+        title: HSE
         quote: >
-          Short overview of the project (optional)
+          (Environment - health - safety)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          HSE project for Pars Petrochemical Co.
 
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
+        title: Personal Development Process
+        sub_title: Java Backend Developer
         caption: Date Range (eg. 2016 - 2019)
         quote: >
           Short institution or course description (optional)
@@ -115,9 +138,9 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
+exclude: [
   "Gemfile",
   "Gemfile.lock",
   "node_modules",
@@ -128,4 +151,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
